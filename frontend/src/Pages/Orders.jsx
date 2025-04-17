@@ -33,7 +33,7 @@ function Orders() {
           })
         })
         setorderData(allOrdersItem.reverse());
-        toast.success("Order Placed")
+        
 
       }
     }

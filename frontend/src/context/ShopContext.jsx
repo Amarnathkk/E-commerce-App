@@ -124,7 +124,7 @@ const ShopContextProvider = (props) => {
         }
         return totalAmount;
     };
-    
+
 
 
 
@@ -177,7 +177,7 @@ const ShopContextProvider = (props) => {
         if (token) {
             getUserCart(token);
         }
-    }, [token]); 
+    }, [token]);
 
 
     const value = {
@@ -193,7 +193,7 @@ const ShopContextProvider = (props) => {
         backendURl,
         setToken, token,
         setCartItems
-       
+
     };
 
     return (
